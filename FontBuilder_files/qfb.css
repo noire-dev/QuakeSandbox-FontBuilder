@@ -1,0 +1,328 @@
+
+#set_pos caption
+{
+	white-space:	nowrap;
+}
+
+#set_table td:nth-child(2),
+#set_pos td:nth-child(2)
+{
+	text-align:	right;
+}
+#set_table td:nth-child(1)
+{
+	vertical-align:	top;
+}
+
+#set_pos
+{
+	display:	block;
+	border:	1px solid black;
+	padding:	10px;
+	margin:	0;
+	vertical-align: bottom;
+	margin-bottom:	10px;
+	margin-left:	10px;
+}
+#set_table
+{
+	display:	inline-block;
+	border:	1px solid black;
+	padding:	10px;
+	margin:	0;
+	vertical-align: bottom;
+}
+#extra_block
+{
+	display:	inline-block;
+}
+#char_group img,
+#char_group2 img,
+#char_group3 img
+{
+	display:	block;
+	border: 0;
+	padding:	0;
+	margin:	0;
+	background-color: #000000;
+}
+#char_group table tr td,
+#char_group2 table tr td,
+#char_group3 table tr td
+{
+	border: 0;
+	padding:	0;
+	margin:	0;
+}
+#char_group table,
+#char_group2 table,
+#char_group3 table
+{
+	border:	0;
+	padding:	0;
+	margin:	0;
+	vertical-align: bottom;
+	border-spacing:	0;
+	border-collapse:	separate;
+	padding-bottom:	5px;
+	font-size:	0;
+}
+#char_group2 table,
+#char_group3 table,
+#char_group2 div button,
+#char_group3 div button
+{
+	display:	none;
+}
+
+#char_group p,
+#char_group2 p,
+#char_group3 p
+{
+	margin-top:	0;
+	margin-bottom:	5px;
+}
+#workspace_block p
+{
+	margin-top:	0;
+}
+#workspace_block button
+{
+	display:	block;
+}
+#workspace_block
+{
+	display:	inline-block;
+	border:	1px solid black;
+	padding:	10px;
+	margin:	0;
+}
+#char_groups
+{
+	display:	inline-block;
+	padding:	0;
+	margin:	0;
+	margin-left:	10px;
+}
+#char_group,
+#char_group2,
+#char_group3
+{
+	display:	block;
+	border:	1px solid black;
+	padding:	10px;
+	margin:	0;
+}
+#char_group2,
+#char_group3
+{
+	border-bottom:	0;
+}
+#hand_block button
+{
+	display:	block;
+	margin-bottom:	10px;
+}
+#hand_block p:nth-child(1)
+{
+	margin-top:	0;
+}
+#hand_block
+{
+	display:	inline-block;
+	border:	1px solid black;
+	padding:	10px;
+	margin:	0;
+	margin-top:	50px;
+}
+
+#hand_image
+{
+	 background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,255,255,1));
+}
+
+#char_image_block p
+{
+	margin-top:	0;
+}
+
+#char_image_block
+{
+	display:	inline-block;
+	border:	1px solid black;
+	padding:	10px;
+	margin-left:	10px;
+	margin-right:	10px;
+	vertical-align: bottom;
+}
+
+#char_image_bg_block
+{
+	border:	1px solid white;
+	display:	block;
+	height:	16px;
+	width:	16px;
+	background-color: #000000;
+	position:	absolute;
+	left:	7px;
+	top:	7px;
+	z-index:	1;
+}
+#char_image_max_block
+{
+	display:	inline-block;
+	position:	relative;
+	height:	32px; 
+	width:	32px;
+	background:	radial-gradient(black,white);
+}
+
+#char_image
+{
+	position:	absolute;
+	left:	0;
+	top:	0;
+	z-index:	2;
+}
+
+
+#original_image
+{
+	visibility:	hidden;
+	position:	absolute;
+	z-index:	-1;
+}
+#blank_char,
+#blank_canvas
+{
+	visibility:	hidden;
+	border:	0;
+	margin:	0;
+	padding: 0;
+	position:	absolute;
+	z-index:	-1;
+}
+#drop_image
+{
+	visibility:	hidden;
+	border:	0;
+	margin:	0;
+	padding: 0;
+}
+
+#workspace_canvas
+{
+	background-color:	#000000;
+}
+
+#font_image
+{
+	background-color:	#000000;
+}
+
+#char_canvas
+{
+	visibility:	hidden;
+}
+
+#canvas_error,
+#noscript_error,
+#worker_error,
+#download_error,
+#drag_error,
+#filereader_error
+{
+	color:	red;
+}
+.worker_error_inactive,
+.download_error_inactive,
+.drag_error_inactive,
+.filereader_error_inactive
+{
+	visibility:	hidden;
+	display:	none;
+}
+.worker_error_active,
+.download_error_active,
+.drag_error_active,
+.filereader_error_active
+{
+	visibility:	visible;
+	display:	block;
+}
+
+#font_weight_list li,
+#font_style_list li,
+#font_variant_list li
+{
+	text-align:	left;
+}
+
+#font_weight_list,
+#font_style_list,
+#font_variant_list
+{
+	text-align:	right;
+	border:	0;
+	padding:	0;
+	margin:	0;
+	display:	inline-block;
+	list-style-type:	none;
+}
+
+
+
+#offset_x,
+#offset_y,
+#workspace_char_size,
+#font_size,
+#pk3_compression_input
+{
+	width:	4em;
+	text-align:	right;
+}
+
+#pos_x,
+#pos_y
+{
+	width:	2em;
+	text-align:	right;
+}
+
+#font_alpha
+{
+	width:	3em;
+	text-align:	right;
+}
+
+#font_char
+{
+	width:	1em;
+}
+
+#font_color
+{
+	width:	7em;
+}
+
+.font_name_exists
+{
+	border:	1px dotted green;
+}
+
+#workspace_size_label
+{
+	float:	right;
+}
+#pk3_download_link
+{
+	visibility:	hidden;
+	position:	absolute;
+	z-index:	-1;
+}
+
+#group3_show_button,
+#group2_show_button
+{
+	float:	right;
+}
